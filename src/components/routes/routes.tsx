@@ -1,5 +1,7 @@
 import Layout from "./layouts/Layout";
 import Home from "./pages/Home";
+import Courses from "./pages/Courses";
+
 import Error from "./Error";
 
 const routes = [
@@ -11,6 +13,10 @@ const routes = [
       {
         index: true,
         element: <Home />,
+      },
+      {
+        path: "/courses",
+        element: <Courses />,
       },
     ],
   },
